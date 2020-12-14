@@ -29,4 +29,4 @@ imageshadow: true
   </tr>
 </table>
 
-<rssapp-wall id="NTMq0uj4p27ANhcc"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+<rssapp-wall id="NmOkImkCHmQ0kNqk"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
