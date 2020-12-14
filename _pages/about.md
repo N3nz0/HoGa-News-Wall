@@ -3,7 +3,7 @@ layout: page
 title: AHGZ
 permalink: /AHGZ
 comments: false
-image: assets/images/screenshot.jpg
+image:
 imageshadow: true
 ---
 
