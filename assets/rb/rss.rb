@@ -4,7 +4,7 @@ module JekyllImport
     class RSS < Importer
       def self.specify_options(c)
         c.option "source", "--source Tophotel", "https://www.tophotel.de/feed/"
-        c.option "tag", "--tag NAME", "Add a tag to posts"
+        c.option "tag", "--tag Tophotel", "Tophotel"
       end
 
       def self.validate(options)
