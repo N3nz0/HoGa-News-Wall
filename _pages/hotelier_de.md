@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hotelier.de
-permalink: /hotelier.de
+permalink: /hotelier_de
 comments: false
 image:
 imageshadow: true
