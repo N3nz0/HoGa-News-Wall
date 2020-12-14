@@ -2,6 +2,7 @@
 layout: categories
 title: Categories
 permalink: /categories
+---
 
 import feedparser
 
@@ -16,7 +17,7 @@ for item in items:
     fileName = fileName.replace('/', '')
     f = open(fileName,'w')
     value = item["content"][0]['value'].encode('gb18030')
-    f.write('---\nlayout: post\ntitle: ' + title + '\n')
+    f.write('---\nlayout: _post\ntitle: ' + title + '\n')
     f.write('''status: publish
 published: true
 meta:
