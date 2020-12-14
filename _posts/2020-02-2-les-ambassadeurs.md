@@ -8,4 +8,4 @@ tags: [ News ]
 # rating: 4.5
 ---
 
-<rssapp-wall id="_pOrpoczbNi3C6TuO"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+<rssapp-list id="_pOrpoczbNi3C6TuO"></rssapp-list><script src="https://widget.rss.app/v1/list.js" type="text/javascript" async></script>
