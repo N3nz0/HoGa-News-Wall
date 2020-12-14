@@ -75,10 +75,10 @@ func NewWithCustom(log *logrus.Logger, directory string, itemsPerPage int, URLFe
 			return nil, fmt.Errorf("directory %s does not exist", agg.Directory)
 		}
 	}
-	indexFile := filepath.Clean(agg.Directory + "/index.html")
+	indexFile := filepath.Clean(agg.Directory + "/stream.html")
 	if !fileExists(indexFile) {
 		if err := createSampleIndex(indexFile); err != nil {
-			return nil, fmt.Errorf("could not create sample index.html file: %s", err)
+			return nil, fmt.Errorf("could not create sample stream.html file: %s", err)
 		}
 		log.Infof("Created %s with sample feeds.\n", indexFile)
 	}
@@ -230,13 +230,13 @@ func (item *Item) SetTag() {
 
 func (agg *Aggregator) loadFeedsAndItemsFromHTMLFiles() error {
 	for i := 1; ; i++ {
-		filePath := filepath.Clean(agg.Directory + "/index.html")
+		filePath := filepath.Clean(agg.Directory + "/stream.html")
 		if i > 1 {
 			filePath = filepath.Clean(fmt.Sprintf(agg.Directory+"/page%d.html", i))
 		}
 		if !fileExists(filePath) {
 			if i == 0 {
-				return fmt.Errorf("could not find index.html. You need to create %s and make sure it has at least one feed URL in it. See example index.html in github", filePath)
+				return fmt.Errorf("could not find stream.html. You need to create %s and make sure it has at least one feed URL in it. See example stream.html in github", filePath)
 			}
 			break
 		}
@@ -280,8 +280,8 @@ func (agg *Aggregator) ImportOPMLFile(filePath string) (importedFeeds int, err e
 	for URL, title := range feeds {
 		agg.Feeds[URL] = title
 	}
-	// Save feeds to index.html
-	indexFile := filepath.Clean(agg.Directory + "/index.html")
+	// Save feeds to stream.html
+	indexFile := filepath.Clean(agg.Directory + "/stream.html")
 	indexItems, _, err := loadFromFile(indexFile)
 	if err != nil {
 		return 0, fmt.Errorf("could not save imported feeds to %s: %s", indexFile, err)
@@ -321,7 +321,7 @@ func collectFeedsFromOPMLOutline(feeds map[string]string, outlines []opml.Outlin
 // Update reads feed URLs from index.html, fetches RSS/Atom feed from each URL found and save everything back to index.html.
 // Also generates new pageX.html files when index.html is too large.
 func (agg *Aggregator) Update() (err error) {
-	indexFile := agg.Directory + "/index.html"
+	indexFile := agg.Directory + "/stream.html"
 	indexItems, feeds, err := loadFromFile(indexFile)
 	// If we can't read feed sources from index.html, might as well stop now
 	if err != nil {

@@ -15,7 +15,7 @@ func Test_HTMLFileGeneratedOnNewItems(t *testing.T) {
 	dir := "test_data/news"
 	failIfError(t, os.RemoveAll(dir))
 	failIfError(t, os.MkdirAll(dir, os.ModeDir))
-	failIfError(t, copyFileContents("test_data/1feed_0items.html", dir+"/index.html"))
+	failIfError(t, copyFileContents("test_data/1feed_0items.html", dir+"/stream.html"))
 	agg, err := NewWithCustom(logrus.New(), dir, 4, fakeURLFetcher)
 	failIfError(t, err)
 	if len(agg.Feeds) != 1 {
@@ -36,7 +36,7 @@ func Test_OPMLFileImport(t *testing.T) {
 	dir := "test_data/news"
 	failIfError(t, os.RemoveAll(dir))
 	failIfError(t, os.MkdirAll(dir, os.ModeDir))
-	failIfError(t, copyFileContents("test_data/1feed_0items.html", dir+"/index.html"))
+	failIfError(t, copyFileContents("test_data/1feed_0items.html", dir+"/stream.html"))
 	agg, err := NewWithCustom(logrus.New(), dir, 1000, fakeURLFetcher)
 	failIfError(t, err)
 	failIfError(t, agg.ImportOPMLFile("test_data/feeds.opml"))

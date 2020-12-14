@@ -1,7 +1,7 @@
 ---
 layout: default
-title: HOGAPAGE
-permalink: /hogapage
+title: Tophotel
+permalink: /Tophotel
 comments: false
 image:
 imageshadow: true
@@ -10,7 +10,7 @@ imageshadow: true
   <tr>
     <td><a href="{{ site.baseurl }}/">Home</a></td>
     <td><a href="{{ site.baseurl }}/ahgz"><img src="assets/images/logo-ahgz.svg" title="Example Image Link" width="100" /></a></td>
-    <th style="background-color:rgba(251,187,33,0.35)"><a href="{{ site.baseurl }}/hogapage"><img src="assets/images/logo-hogapage.svg" title="Example Image Link" width="100" /></a></th>
+    <td><a href="{{ site.baseurl }}/hogapage"><img src="assets/images/logo-hogapage.svg" title="Example Image Link" width="100" /></a></td>
   </tr>
   <tr>
     <td><a href="{{ site.baseurl }}/hotelier_de"><img src="assets/images/logo-hotelier.png" title="Example Image Link" width="100" /></a></td>
@@ -23,10 +23,10 @@ imageshadow: true
     <td><a href="{{ site.baseurl }}/hotelfachzeitung"><img src="assets/images/logo-HFZ.png" title="Example Image Link" width="100" /></a></td>
   </tr>
   <tr>
-    <td><a href="{{ site.baseurl }}/Tophotel"><img src="assets/images/logo-tophotel.svg" title="Example Image Link" width="100" /></a></td>
+    <th style="background-color:rgba(251,187,33,0.35)"><a href="{{ site.baseurl }}/Tophotel"><img src="assets/images/logo-tophotel.svg" title="Example Image Link" width="100" /></a></th>
     <td></td>
     <td></td>
   </tr>
 </table>
 
-<rssapp-wall id="r51Tk8rtaBEG2UL1"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+<rssapp-wall id="Km3x6n3xxwgAQVRr"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
