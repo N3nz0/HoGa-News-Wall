@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AHGZ
-permalink: /AHGZ
+permalink: /ahgz
 comments: false
 image:
 imageshadow: true
