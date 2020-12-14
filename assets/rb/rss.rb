@@ -1,3 +1,4 @@
+irb> require 'jekyll-import'
 module JekyllImport
   module Importers
     class RSS < Importer
