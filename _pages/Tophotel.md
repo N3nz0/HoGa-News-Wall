@@ -23,7 +23,7 @@ imageshadow: true
     <td><a href="{{ site.baseurl }}/hotelfachzeitung"><img src="assets/images/logo-HFZ.png" title="Example Image Link" width="100" /></a></td>
   </tr>
   <tr>
-    <th style="background-color:rgba(251,187,33,0.35)"><a href="{{ site.baseurl }}/Tophotel"><img src="assets/images/logo-tophotel.svg" title="Example Image Link" width="100" /></a></th>
+    <th style="background-color:rgba(251,187,33,0.35)"><a href="{{ site.baseurl }}/Tophotel"><img src="assets/images/logo-tophotel.jpg" title="Example Image Link" width="100" /></a></th>
     <td></td>
     <td></td>
   </tr>
