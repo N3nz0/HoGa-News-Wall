@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: AHGZ
 permalink: /ahgz
 comments: false
