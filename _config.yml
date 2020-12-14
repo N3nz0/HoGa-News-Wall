@@ -1,8 +1,8 @@
 # Site
 name: "HoGa-News-Wall"
 title: "HoGa-News-Wall"
-description: "I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!"
-logo: 'assets/images/logo.png'
+description: "News Aggregator für den HoGa Markt"
+logo: 'assets/images/logo-filosof.png'
 favicon: 'assets/images/logo.png'
 baseurl: /HoGa-News-Wall
 google_analytics: 'UA-xxxxxxxx-1'
