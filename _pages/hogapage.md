@@ -1,7 +1,7 @@
 ---
 layout: default
-title: AHGZ
-permalink: /ahgz
+title: HOGAPAGE
+permalink: /hogapage
 comments: false
 image:
 imageshadow: true
