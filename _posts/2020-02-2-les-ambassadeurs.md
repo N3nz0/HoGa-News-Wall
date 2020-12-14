@@ -4,7 +4,7 @@ title:  "Die letzten 25"
 author: N3nz0
 categories: [ All ]
 tags: [ News ]
-image: assets/images/2.jpg
+# image: assets/images/2.jpg
 # rating: 4.5
 ---
 
