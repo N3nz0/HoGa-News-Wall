@@ -7,4 +7,4 @@ image:
 imageshadow: true
 ---
 
-<rssapp-list id="svO6K0Ytx26o6WTx"></rssapp-list><script src="https://widget.rss.app/v1/list.js" type="text/javascript" async></script>
+<rssapp-wall id="svO6K0Ytx26o6WTx"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
