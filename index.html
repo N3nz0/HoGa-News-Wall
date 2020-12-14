@@ -4,12 +4,14 @@ title: Home
 ---
 
 <!-- Posts Index
-================================================== -->
+==================================================
 <div class="blog-grid-container">
     {% for post in paginator.posts %}
         {% include postbox.html %}
     {% endfor %}
-</div>
+# </div> -->
+
+<rssapp-wall id="_pOrpoczbNi3C6TuO"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
 
 <!-- Pagination
 ================================================== -->
@@ -18,4 +20,3 @@ title: Home
     {% include pagination.html %}
 </span>
 </div>
-
