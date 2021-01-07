@@ -33,7 +33,7 @@ imageshadow: true
 <rssapp-wall id="svO6K0Ytx26o6WTx"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
 
 
-able style="width:100%; text-align:center">
+<table style="width:100%; text-align:center">
   <tr>
     <td><a href="{{ site.baseurl }}/">Home</a></td>
     <th style="background-color:rgba(251,187,33,0.35)"><a href="{{ site.baseurl }}/ahgz"><img src="assets/images/logo-ahgz.svg" title="Example Image Link" width="100" /></a></th>
