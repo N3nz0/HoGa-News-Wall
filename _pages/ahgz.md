@@ -28,11 +28,9 @@ imageshadow: true
     <td></td>
   </tr>
 </table>
-
-
+***
 <rssapp-wall id="svO6K0Ytx26o6WTx"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
-
-
+***
 <table style="width:100%; text-align:center">
   <tr>
     <td><a href="{{ site.baseurl }}/">Home</a></td>
