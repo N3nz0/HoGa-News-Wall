@@ -30,3 +30,5 @@ imageshadow: true
 </table>
 
 <rssapp-wall id="NmOkImkCHmQ0kNqk"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+
+<br border-top: 1px solid #8c8b8b;>
