@@ -3,7 +3,7 @@ name: "HoGa-News-Wall"
 title: "HoGa-News-Wall"
 description: "HoGa-News-Wall"
 logo: 'assets/images/logo-filosof.png'
-favicon: 'assets/images/favicon.ico'
+favicon: 'assets/images/favicon.png'
 baseurl: /HoGa-News-Wall
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
