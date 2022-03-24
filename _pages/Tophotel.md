@@ -24,7 +24,7 @@ imageshadow: true
   </tr>
   <tr>
     <th style="background-color:rgba(251,187,33,0.35)"><a href="{{ site.baseurl }}/Tophotel"><img src="assets/images/logo-tophotel.jpg" title="Example Image Link" width="100" /></a></th>
-    <td></td>
+    <td><a href="{{ site.baseurl }}/Cost&Logis"><img src="assets/images/logo-CuL.png" title="Example Image Link" width="100" /></a></td>
     <td></td>
   </tr>
 </table>
@@ -49,7 +49,7 @@ imageshadow: true
   </tr>
   <tr>
     <th style="background-color:rgba(251,187,33,0.35)"><a href="{{ site.baseurl }}/Tophotel"><img src="assets/images/logo-tophotel.jpg" title="Example Image Link" width="100" /></a></th>
-    <td></td>
+    <td><a href="{{ site.baseurl }}/Cost&Logis"><img src="assets/images/logo-CuL.png" title="Example Image Link" width="100" /></a></td>
     <td></td>
   </tr>
 </table>
