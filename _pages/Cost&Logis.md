@@ -14,7 +14,7 @@ imageshadow: true
   </tr>
   <tr>
     <td><a href="{{ site.baseurl }}/hotelier_de"><img src="assets/images/logo-hotelier.png" title="Example Image Link" width="100" /></a></td>
-    <th style="background-color:rgba(251,187,33,0.35)"><a href="{{ site.baseurl }}/Hotelvor9"><img src="assets/images/logo-hotelvor9.svg" title="Example Image Link" width="100" /></a></th>
+    <td><a href="{{ site.baseurl }}/Hotelvor9"><img src="assets/images/logo-hotelvor9.svg" title="Example Image Link" width="100" /></a></td>
     <td><a href="{{ site.baseurl }}/Presseportal-Hotellerie"><img src="assets/images/logo-presseportal.png" title="Example Image Link" width="100" /></a></td>
   </tr>
   <tr>
@@ -24,7 +24,7 @@ imageshadow: true
   </tr>
   <tr>
     <td><a href="{{ site.baseurl }}/Tophotel"><img src="assets/images/logo-tophotel.jpg" title="Example Image Link" width="100" /></a></td>
-    <td><a href="{{ site.baseurl }}/Cost & Logis"><img src="assets/images/logo-CuL.png" title="Example Image Link" width="100" /></a></td>
+    <th style="background-color:rgba(251,187,33,0.35)"><a href="{{ site.baseurl }}/Cost&Logis"><img src="assets/images/logo-CuL.png" title="Example Image Link" width="100" /></a></th>
     <td></td>
   </tr>
 </table>
@@ -39,7 +39,7 @@ imageshadow: true
   </tr>
   <tr>
     <td><a href="{{ site.baseurl }}/hotelier_de"><img src="assets/images/logo-hotelier.png" title="Example Image Link" width="100" /></a></td>
-    <th style="background-color:rgba(251,187,33,0.35)"><a href="{{ site.baseurl }}/Hotelvor9"><img src="assets/images/logo-hotelvor9.svg" title="Example Image Link" width="100" /></a></th>
+    <td><a href="{{ site.baseurl }}/Hotelvor9"><img src="assets/images/logo-hotelvor9.svg" title="Example Image Link" width="100" /></a></td>
     <td><a href="{{ site.baseurl }}/Presseportal-Hotellerie"><img src="assets/images/logo-presseportal.png" title="Example Image Link" width="100" /></a></td>
   </tr>
   <tr>
@@ -49,7 +49,7 @@ imageshadow: true
   </tr>
   <tr>
     <td><a href="{{ site.baseurl }}/Tophotel"><img src="assets/images/logo-tophotel.jpg" title="Example Image Link" width="100" /></a></td>
-    <td><a href="{{ site.baseurl }}/Cost&Logis"><img src="assets/images/logo-CuL.png" title="Example Image Link" width="100" /></a></td>
+    <th style="background-color:rgba(251,187,33,0.35)"><a href="{{ site.baseurl }}/Cost&Logis"><img src="assets/images/logo-CuL.png" title="Example Image Link" width="100" /></a></th>
     <td></td>
   </tr>
 </table>
