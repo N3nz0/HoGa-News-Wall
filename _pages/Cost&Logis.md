@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Hotelvor9
-permalink: /Hotelvor9
+title: Cost & Logis
+permalink: /Cost&Logis
 comments: false
 image:
 imageshadow: true
