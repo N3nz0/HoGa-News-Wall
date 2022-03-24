@@ -22,7 +22,7 @@ layout: home
   </tr>
   <tr>
     <td><a href="{{ site.baseurl }}/Tophotel"><img src="assets/images/logo-tophotel.jpg" title="Example Image Link" width="100" /></a></td>
-    <td><a href="{{ site.baseurl }}/Cost & Logis"><img src="assets/images/logo-CuL.png" title="Example Image Link" width="100" /></a></td>
+    <td><a href="{{ site.baseurl }}/Cost&Logis"><img src="assets/images/logo-CuL.png" title="Example Image Link" width="100" /></a></td>
     <td></td>
   </tr>
 </table>
